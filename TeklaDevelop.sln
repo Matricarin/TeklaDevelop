@@ -20,7 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StartUpFiles", "StartUpFile
 		Macros\StartUpFiles\WriteAttributesFromAssembliesInDrawings.cs = Macros\StartUpFiles\WriteAttributesFromAssembliesInDrawings.cs
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFFirstPlugin", "Plugins\WPFFirstPlugin\WPFFirstPlugin.csproj", "{9D32B5C6-443F-4F40-A706-21E1C6288C09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFFirstPlugin", "Plugins\WPFFirstPlugin\WPFFirstPlugin.csproj", "{093A2AC4-FAEA-4626-8413-D0DBB00EA548}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,10 +36,10 @@ Global
 		{E01BC98F-B320-4798-87A3-73B901AE5381}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E01BC98F-B320-4798-87A3-73B901AE5381}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E01BC98F-B320-4798-87A3-73B901AE5381}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9D32B5C6-443F-4F40-A706-21E1C6288C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D32B5C6-443F-4F40-A706-21E1C6288C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D32B5C6-443F-4F40-A706-21E1C6288C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D32B5C6-443F-4F40-A706-21E1C6288C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{093A2AC4-FAEA-4626-8413-D0DBB00EA548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093A2AC4-FAEA-4626-8413-D0DBB00EA548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093A2AC4-FAEA-4626-8413-D0DBB00EA548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093A2AC4-FAEA-4626-8413-D0DBB00EA548}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,7 +48,7 @@ Global
 		{F4E9F97B-027B-4BB8-9AD8-769C251C0C1C} = {60DE8E86-1691-484A-AFDE-11D4FE15FC8B}
 		{E01BC98F-B320-4798-87A3-73B901AE5381} = {D995264B-D225-4E84-8A2C-37C293855B6A}
 		{6FD519D4-9B06-43A0-B1FE-1260AD9DE20E} = {EA982A1C-EBD7-4765-AC2C-0E5FCD4F7E9F}
-		{9D32B5C6-443F-4F40-A706-21E1C6288C09} = {1465D3C7-A595-4C9F-8BC9-4D1F6BA3D9F9}
+		{093A2AC4-FAEA-4626-8413-D0DBB00EA548} = {1465D3C7-A595-4C9F-8BC9-4D1F6BA3D9F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {664761C1-2324-49A8-8ED5-8D4DCB06D669}
