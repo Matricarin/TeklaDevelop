@@ -14,7 +14,7 @@ namespace WPFFirstPlugin
         public string partProfile;
         
         [StructuresField("material")]
-        public string material;
+        public string partMaterial;
 
         #endregion
     }
