@@ -1,0 +1,7 @@
+C:\Users\urd\Desktop\repos\TeklaDevelop\ObjDir\2019\WPFFirstPlugin\WPFFirstPlugin.csproj.AssemblyReference.cache
+C:\Users\urd\Desktop\repos\TeklaDevelop\ObjDir\2019\WPFFirstPlugin\WPFFirstPlugin.csproj.SuggestedBindingRedirects.cache
+C:\Users\urd\Desktop\repos\TeklaDevelop\ObjDir\2019\WPFFirstPlugin\WPFFirstPlugin.exe.config
+C:\Users\urd\Desktop\repos\TeklaDevelop\ObjDir\2019\WPFFirstPlugin\MainWindow.g.cs
+C:\Users\urd\Desktop\repos\TeklaDevelop\ObjDir\2019\WPFFirstPlugin\App.g.cs
+C:\Users\urd\Desktop\repos\TeklaDevelop\ObjDir\2019\WPFFirstPlugin\WPFFirstPlugin_MarkupCompile.cache
+C:\Users\urd\Desktop\repos\TeklaDevelop\ObjDir\2019\WPFFirstPlugin\WPFFirstPlugin_MarkupCompile.lref
