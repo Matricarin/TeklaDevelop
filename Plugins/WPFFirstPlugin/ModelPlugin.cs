@@ -11,7 +11,7 @@ using Tekla.Structures.Plugins;
 
 namespace WPFFirstPlugin
 {
-    [Plugin("WPFFirstPlugin")]
+    [Plugin("ModelPlugin")]
     [PluginUserInterface("WPFFirstPlugin.MainWindow")]
     public class ModelPlugin : PluginBase
     {

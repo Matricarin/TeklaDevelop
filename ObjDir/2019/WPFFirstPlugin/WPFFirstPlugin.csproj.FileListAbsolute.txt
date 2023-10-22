@@ -2,7 +2,6 @@ C:\Users\urd\Desktop\repos\TeklaDevelop\ObjDir\2019\WPFFirstPlugin\WPFFirstPlugi
 C:\Users\urd\Desktop\repos\TeklaDevelop\ObjDir\2019\WPFFirstPlugin\MainWindow.g.cs
 C:\Users\urd\Desktop\repos\TeklaDevelop\ObjDir\2019\WPFFirstPlugin\WPFFirstPlugin_MarkupCompile.cache
 C:\Users\urd\Desktop\repos\TeklaDevelop\ObjDir\2019\WPFFirstPlugin\WPFFirstPlugin_MarkupCompile.lref
-C:\Users\urd\Desktop\repos\TeklaDevelop\ObjDir\2019\WPFFirstPlugin\GeneratedInternalTypeHelper.g.cs
 C:\Users\urd\Desktop\repos\TeklaDevelop\Plugins\WPFFirstPlugin\bin\Debug\WPFFirstPlugin.dll
 C:\Users\urd\Desktop\repos\TeklaDevelop\Plugins\WPFFirstPlugin\bin\Debug\WPFFirstPlugin.pdb
 C:\Users\urd\Desktop\repos\TeklaDevelop\Plugins\WPFFirstPlugin\bin\Debug\Fusion.dll
@@ -16,3 +15,4 @@ C:\Users\urd\Desktop\repos\TeklaDevelop\ObjDir\2019\WPFFirstPlugin\WPFFirstPlugi
 C:\Users\urd\Desktop\repos\TeklaDevelop\ObjDir\2019\WPFFirstPlugin\WPFFirstPlugin.csproj.CopyComplete
 C:\Users\urd\Desktop\repos\TeklaDevelop\ObjDir\2019\WPFFirstPlugin\WPFFirstPlugin.dll
 C:\Users\urd\Desktop\repos\TeklaDevelop\ObjDir\2019\WPFFirstPlugin\WPFFirstPlugin.pdb
+C:\Users\urd\Desktop\repos\TeklaDevelop\ObjDir\2019\WPFFirstPlugin\FusionTheme.baml
