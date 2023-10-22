@@ -11,9 +11,7 @@
         Title="FirstPlugin" 
         Height="450" 
         Width="800">
-    <d:UserControl.DataContext>
-        <local:MainWindowViewModel/>
-    </d:UserControl.DataContext>
+
     <Grid>
         
     </Grid>

@@ -44,7 +44,7 @@ namespace WPFFirstPlugin
 
         #region Constructor
 
-        public WPFFirstPlugin(PluginData data)
+        public ModelPlugin(PluginData data)
         {
             Model = new Model();
             Data = data;
@@ -63,22 +63,13 @@ namespace WPFFirstPlugin
                 Point StartPoint = Points[0] as Point;
                 Point EndPoint = Points[1] as Point;
 
-                Point LengthVector = new Point(EndPoint.X - StartPoint.X, EndPoint.Y - StartPoint.Y, EndPoint.Z - StartPoint.Z);
-
-                if (_LengthFactor > 0)
-                {
-                    EndPoint.X = _LengthFactor * LengthVector.X + StartPoint.X;
-                    EndPoint.Y = _LengthFactor * LengthVector.Y + StartPoint.Y;
-                    EndPoint.Z = _LengthFactor * LengthVector.Z + StartPoint.Z;
-                }
-
                 Beam beam = new Beam(StartPoint, EndPoint);
                 beam.Name = _partName;
                 beam.Profile.ProfileString = _partProfile;
                 beam.Material.MaterialString = _partMaterial;
                 beam.Insert();
 
-                Operation.DisplayPrompt("Selected component " + _Data.componentname + " : " + _Data.componentnumber.ToString());
+                Operation.DisplayPrompt("Selected component ");
             }
             catch (Exception e)
             {

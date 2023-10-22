@@ -6,7 +6,7 @@ using TD = Tekla.Structures.Datatype;
 
 namespace WPFFirstPlugin
 {
-    internal class MainWindowViewModel : INotifyPropertyChanged
+    public class MainWindowViewModel : INotifyPropertyChanged
     {
         #region implement property changed
 
