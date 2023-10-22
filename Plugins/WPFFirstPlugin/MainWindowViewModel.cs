@@ -1,6 +1,9 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
+using Tekla.Structures.Dialog;
+using TD = Tekla.Structures.Datatype;
+
 namespace WPFFirstPlugin
 {
     internal class MainWindowViewModel : INotifyPropertyChanged
@@ -27,10 +30,36 @@ namespace WPFFirstPlugin
 
         #endregion
 
+        #region Fields
 
+        private string partName = string.Empty;
+        private string partProfile = string.Empty;
+        private string partMaterial = string.Empty;
+
+        #endregion
 
         #region Properies
 
+        [StructuresDialog("name", typeof(TD.String))]
+        public string Name
+        {
+            get { return partName; }
+            set => Set(ref value, Name);
+        }
+
+        [StructuresDialog("profile", typeof(TD.String))]
+        public string Profile
+        {
+            get { return partProfile; }
+            set => Set(ref value, Profile);
+        }
+
+        [StructuresDialog("material", typeof(TD.String))]
+        public string Material
+        {
+            get { return partMaterial; }
+            set => Set(ref value, Material);
+        }
 
         #endregion
 
