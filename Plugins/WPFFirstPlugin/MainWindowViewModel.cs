@@ -32,9 +32,9 @@ namespace WPFFirstPlugin
 
         #region Fields
 
-        private string partName = string.Empty;
-        private string partProfile = string.Empty;
-        private string partMaterial = string.Empty;
+        private string _partName = string.Empty;
+        private string _partProfile = string.Empty;
+        private string _partMaterial = string.Empty;
 
         #endregion
 
@@ -43,22 +43,22 @@ namespace WPFFirstPlugin
         [StructuresDialog("name", typeof(TD.String))]
         public string Name
         {
-            get { return partName; }
-            set => Set(value, Name);
+            get { return _partName; }
+            set => Set(ref _partName, value);
         }
 
         [StructuresDialog("profile", typeof(TD.String))]
         public string Profile
         {
-            get { return partProfile; }
-            set => Set(value, Profile);
+            get { return _partProfile; }
+            set => Set(ref _partProfile, value);
         }
 
         [StructuresDialog("material", typeof(TD.String))]
         public string Material
         {
-            get { return partMaterial; }
-            set => Set(value, Material);
+            get { return _partMaterial; }
+            set => Set(ref _partMaterial, value);
         }
 
         #endregion
