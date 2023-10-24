@@ -38,7 +38,7 @@ namespace WPFFirstPlugin
 
         #endregion
 
-        #region Properies
+        #region Properties
 
         [StructuresDialog("name", typeof(TD.String))]
         public string Name
