@@ -22,6 +22,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StartUpFiles", "StartUpFile
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFFirstPlugin", "Plugins\WPFFirstPlugin\WPFFirstPlugin.csproj", "{093A2AC4-FAEA-4626-8413-D0DBB00EA548}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{328087CA-811C-4823-B986-5AE892EFDFE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenApiDocs", "OpenApiDocs", "{E9866655-3C69-457A-BD07-4EE96A7086BA}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\OpenApiDocs\Reloadplugins.cs = Docs\OpenApiDocs\Reloadplugins.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +56,7 @@ Global
 		{E01BC98F-B320-4798-87A3-73B901AE5381} = {D995264B-D225-4E84-8A2C-37C293855B6A}
 		{6FD519D4-9B06-43A0-B1FE-1260AD9DE20E} = {EA982A1C-EBD7-4765-AC2C-0E5FCD4F7E9F}
 		{093A2AC4-FAEA-4626-8413-D0DBB00EA548} = {1465D3C7-A595-4C9F-8BC9-4D1F6BA3D9F9}
+		{E9866655-3C69-457A-BD07-4EE96A7086BA} = {328087CA-811C-4823-B986-5AE892EFDFE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {664761C1-2324-49A8-8ED5-8D4DCB06D669}
