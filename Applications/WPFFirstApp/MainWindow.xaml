@@ -11,6 +11,118 @@
         Height="450" 
         Width="800">
     <Grid>
-        
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="0"
+                    Grid.Column="0"
+                    Orientation="Horizontal"
+                    Grid.ColumnSpan="2">
+            <UIControls:WpfSaveLoad HorizontalAlignment="Stretch" 
+                                    Margin="0,0,0,0" 
+                                    VerticalAlignment="Top"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1"
+                    Grid.Column="0"
+                    Orientation="Vertical"
+                    Width="100">
+           <Label x:Name="label" 
+                   Content="Name"
+                   HorizontalAlignment="Left"  
+                   VerticalAlignment="Top"
+                   Height="30" 
+                   Width="100"/>
+            <Label x:Name="label_Copy" 
+                   Content="Profile" 
+                   HorizontalAlignment="Left"  
+                   VerticalAlignment="Top" 
+                   Height="30" 
+                   Width="100"/>
+            <Label x:Name="label_material" 
+                   Content="Material" 
+                   HorizontalAlignment="Left" 
+                   VerticalAlignment="Top" 
+                   Height="30" 
+                   Width="100"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1"
+                    Grid.Column="1"
+                    Orientation="Vertical">
+
+            <TextBox x:Name="textBox" 
+                     Height="23" 
+                     TextWrapping="Wrap"
+                     HorizontalAlignment="Left"  
+                     VerticalAlignment="Top"
+                     Text="{Binding Name, Mode=TwoWay}" 
+                     Width="200"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="textBox_Copy" 
+                         HorizontalAlignment="Left"  
+                         TextWrapping="Wrap" 
+                         Text="{Binding Profile, Mode=TwoWay}" 
+                         VerticalAlignment="Top" 
+                         Width="200"
+                         Grid.Column="0"/>
+                <UIControls:WpfProfileCatalog x:Name="profileCatalog" 
+                                              HorizontalAlignment="Left" 
+                                              Margin="312,111,0,0" 
+                                              VerticalAlignment="Top" 
+                                              SelectClicked="profileCatalog_SelectClicked" 
+                                              SelectionDone="profileCatalog_SelectionDone"
+                                              Grid.Column="1"/>
+            </Grid>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="materialBox" 
+                         HorizontalAlignment="Left" 
+                         Height="23" 
+                         TextWrapping="Wrap" 
+                         Text="{Binding Material, Mode=TwoWay}" 
+                         VerticalAlignment="Top" 
+                         Width="200"
+                         Grid.Column="0"/>
+                <UIControls:WpfMaterialCatalog x:Name="materialCatalog" 
+                                               HorizontalAlignment="Left" 
+                                               Margin="312,185,0,0" 
+                                               VerticalAlignment="Top" 
+                                               SelectClicked="materialCatalog_SelectClicked" 
+                                               SelectionDone="materialCatalog_SelectionDone_1"
+                                               Grid.Column="1"/>
+            </Grid>
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="2"
+                    Grid.Column="0"
+                    Orientation="Horizontal"
+                    Grid.ColumnSpan="2">
+            <UIControls:WpfOkCreateCancel HorizontalAlignment="Stretch" 
+                                          Margin="0,0,0,0" 
+                                          VerticalAlignment="Bottom" 
+                                          CancelClicked="WPFOkCreateCancel_CancelClicked" 
+                                          CreateClicked="WPFOkCreateCancel_CreateClicked" 
+                                          OkClicked="WPFOkCreateCancel_OkClicked"/>
+        </StackPanel>
+
     </Grid>
 </tsd:ApplicationWindowBase>

@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Collections;
 using System.Runtime.CompilerServices;
 
 using Tekla.Structures.Model;
@@ -44,21 +45,21 @@ namespace WPFFirstApp
 
         #region Properties
 
-        [StructuresDialog("name"), typeof(TD.String)]
+        [StructuresDialog("name", typeof(TD.String))]
         public string Name
         {
             get { return _partName; }
             set => Set(ref _partName, value);
         }
 
-        [StructuresDialog("profile"), typeof(TD.String)]
+        [StructuresDialog("profile", typeof(TD.String))]
         public string Profile
         {
             get { return _partProfile; }
             set => Set(ref _partProfile, value);
         }
 
-        [StructuresDialog("material"), typeof(TD.String)]
+        [StructuresDialog("material", typeof(TD.String))]
         public string Material
         {
             get { return _partMaterial; }
@@ -74,8 +75,8 @@ namespace WPFFirstApp
             ArrayList PickedPoints = picker.PickPoints(Picker.PickPointEnum.PICK_TWO_POINTS, "Give beam points.. ");
             CheckDefaultValues();
 
-            TSG3D.Point startPoint = PickedPoints[0] as TSG.Point;
-            TSG3D.Point endPoint = PickedPoints[1] as TSG.Point;
+            TSG3D.Point startPoint = PickedPoints[0] as TSG3D.Point;
+            TSG3D.Point endPoint = PickedPoints[1] as TSG3D.Point;
 
             Beam beam = new Beam(startPoint, endPoint);
             beam.Name = this._partName;
