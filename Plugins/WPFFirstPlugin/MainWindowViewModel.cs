@@ -44,21 +44,21 @@ namespace WPFFirstPlugin
         public string Name
         {
             get { return partName; }
-            set => Set(ref value, Name);
+            set => Set(value, Name);
         }
 
         [StructuresDialog("profile", typeof(TD.String))]
         public string Profile
         {
             get { return partProfile; }
-            set => Set(ref value, Profile);
+            set => Set(value, Profile);
         }
 
         [StructuresDialog("material", typeof(TD.String))]
         public string Material
         {
             get { return partMaterial; }
-            set => Set(ref value, Material);
+            set => Set(value, Material);
         }
 
         #endregion
